@@ -174,7 +174,6 @@
   background-size: cover;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
   padding: 0 50px;
 }
 
@@ -333,7 +332,8 @@
 }
 
 .mypic__container{
-  padding: 0 50px;
+  padding: 0 30px;
+  margin: 0 20px;
 }
 
 #mypic{
@@ -346,6 +346,21 @@
   font-weight: 700;
   font: italic 1.5rem 'librebaskerville-italic', serif;
   color: #cbd6df;
+}
+
+@media screen and (min-width: 1300px){
+  .about h3{
+    margin-top: 1.5rem;
+  }
+  .mypic__container{
+    padding: 0 1.5rem;
+  }
+  .about__words{
+    padding: 0 1.5rem;
+  }
+  .about__words h4{
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 960px){
@@ -417,6 +432,34 @@
 
 .education__container h3 span{
   font-size: 24px;
+}
+
+@media screen and (min-width: 1400px){
+  .education{
+    padding: 20px 0;
+    height: 68vh;
+  }  
+  .education__container{
+    padding: 30px 30px;
+    line-height: 45px;
+  }
+  .education__title{
+    width: 270px;
+    border-bottom: 3.5px solid #f77062;
+    padding-bottom: 6px;
+  }
+  .education__title h1{
+    font-size: 2.8rem;
+  }
+  .education__container h2{
+    font-size: 2.2rem;
+  }
+  .education__container h3{
+    font: 28px 'librebaskerville-italic', serif;
+  }
+  .education__container h3 span{
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 960px){
@@ -599,6 +642,16 @@
   width: 30%;
 }
 
+@media screen and (min-width: 1400px){
+  .skills{
+    padding: 20px 0;
+    height: 68vh;
+  }
+  .skills__container{
+    padding: 30px 20px;
+  }
+}
+
 @media screen and (max-width: 960px){
   .skills{
     height: 600px;
@@ -733,6 +786,31 @@
   line-height: 30px;
 }
 
+@media screen and (min-width: 1400px){
+  .others{
+    height: 100vh;
+  }
+  .others h1{
+    margin-top: 6.5rem;
+    font-size: 3.2rem;
+  }
+  .others__card{
+    margin: 0 50px;
+  }
+}
+
+@media screen and (min-width: 1600px){
+  .others{
+    height: 85vh;
+  }
+  .others h1{
+    font-size: 3.5rem;
+  }
+  .others__card{
+    margin: 0 75px;
+  }
+}
+
 @media screen and (max-width: 960px){
   .others{
     height: 1500px;
@@ -813,6 +891,12 @@
   max-width: 1000px;
   margin: 40px 0;
   color: #fff;
+}
+
+@media screen and (min-width: 1400px){
+  .footer__container{
+    padding: 4rem 0;
+  }
 }
 
 @media screen and (max-width: 820px){
